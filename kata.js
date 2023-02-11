@@ -33,11 +33,15 @@ module.exports = {
 
 // getGreeting should return a string containing
 // 'Hello ' and the contents of `name`
-function getGreeting(name) {}
+function getGreeting(name) {
+  return `Hello ${name}`
+}
 
 // getFullName should return a string containing the contents
 // of `firstName` and the contents of `lastName`
-function getFullName(firstName, lastName) {}
+function getFullName(firstName, lastName) {
+  return `${firstName} ${lastName}`
+}
 
 // getAge should return the value of the `age` property of the
 // `obj` object
